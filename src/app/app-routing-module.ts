@@ -6,8 +6,9 @@ import { HijoCocheComponent } from './components/hijo-coche-component/hijo-coche
 import { PadreCochesComponent } from './components/padre-coches-component/padre-coches-component';
 import { PadreDeportesComponent } from './components/padre-deportes-component/padre-deportes-component';
 import { PadreNumerosComponet } from './components/padre-numeros-componet/padre-numeros-componet';
-import { PadreComicsComponet } from './components/padre-comics-componet/padre-comics-componet';
 import { ComicsSimpleComponet } from './components/comics-simple-componet/comics-simple-componet';
+import { ComicsJsonComponent } from './components/comics-json-component/comics-json-component';
+import { ComicsExcelComponent } from './components/comics-excel-component/comics-excel-component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -15,7 +16,9 @@ const routes: Routes = [
   {path: "coches", component: PadreCochesComponent},
   {path: "deportes", component: PadreDeportesComponent},
   {path: "sumar", component: PadreNumerosComponet},
-  {path: "comicssimples", component: ComicsSimpleComponet}
+  {path: "comicssimples", component: ComicsSimpleComponet},
+  {path: "comicsjson", component: ComicsJsonComponent},
+  {path: "comicsexcel", component: ComicsExcelComponent}
 ];
 
 @NgModule({

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { PadreComicsComponet } from './padre-comics-componet';
+import { ComicsJsonComponent } from './comics-json-component';
 
-describe('PadreComicsComponet', () => {
-  let component: PadreComicsComponet;
-  let fixture: ComponentFixture<PadreComicsComponet>;
+describe('ComicsJsonComponent', () => {
+  let component: ComicsJsonComponent;
+  let fixture: ComponentFixture<ComicsJsonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PadreComicsComponet],
+      declarations: [ComicsJsonComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(PadreComicsComponet);
+    fixture = TestBed.createComponent(ComicsJsonComponent);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
